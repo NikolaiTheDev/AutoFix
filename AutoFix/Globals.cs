@@ -9,7 +9,7 @@
         internal static class Application
         {
             internal static Version CurrentVersion { get; set; }
-            internal static Version LatestVersion { get; set; }
+            internal static string LatestVersion { get; set; }
             internal static string Name { get; set; }
             internal static string Author { get; set; }
             internal static string ConfigPath { get; set; }
