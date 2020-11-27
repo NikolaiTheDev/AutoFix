@@ -3,6 +3,7 @@
 namespace AutoFix
 {
     using AutoFix.Utils;
+    using AutoFix.Fixes;
 
     public static class EntryPoint
     {
@@ -15,6 +16,8 @@ namespace AutoFix
             Settings.Initialize();
             Dependecies.Check();
             Updater.Check();
+
+            LogGenerator.CreateInstalledPluginsLog();
 
             Rage.Game.DisplayNotification("AutoFix loaded successfully");
         }

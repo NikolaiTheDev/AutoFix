@@ -16,7 +16,7 @@
         public static void Initialize()
         {
             // Reads and creates a new Settings.ini file if it doesn't exists
-            var Settings = InitializeFile(Globals.Application.ConfigPath + "/Settings/Settings.ini");
+            var Settings = InitializeFile(Globals.Application.ConfigPath + "Settings.ini");
 
             // Makes a new KeyConverter to convert the keys (I like it this way personally)
             var KeysConverter = new KeysConverter();

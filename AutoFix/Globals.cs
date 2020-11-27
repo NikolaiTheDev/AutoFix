@@ -34,7 +34,7 @@
             Application.CurrentVersion = Assembly.GetExecutingAssembly().GetName().Version;
             Application.Name = "AutoFix";
             Application.Author = "Nikolai";
-            Application.ConfigPath = "/plugins/AutoFix";
+            Application.ConfigPath = "Plugins/AutoFix/";
 
             Requirements.RAGENativeUI = new Version(1, 7, 0, 0);
             Requirements.RagePluginHook = new Version(1, 81, 1410, 16064);
